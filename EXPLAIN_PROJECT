@@ -1,0 +1,7 @@
+Este projeto é um sistema de CRUD (Create, Read, Update, Delete) de empresas e seus respectivos funcionários, desenvolvido usando Angular no frontend e Django no backend.
+
+A página inicial exibe uma lista de empresas cadastradas e permite ao usuário adicionar, editar e excluir empresas. Ao clicar em uma empresa específica, o usuário é redirecionado para uma página que exibe mais informações sobre a empresa, bem como uma lista de seus funcionários. O usuário pode adicionar, editar e excluir funcionários nesta página.
+
+No backend, o Django é responsável por fornecer endpoints RESTful para o frontend acessar os dados da aplicação, armazenados em um banco de dados SQLite. O frontend usa o Angular para consumir esses endpoints e renderizar as informações na tela.
+
+Além disso, o projeto também utiliza o Bootstrap para estilização da interface, o ngx-toastr para exibir notificações para o usuário e o ng-bootstrap para a criação de modais.
